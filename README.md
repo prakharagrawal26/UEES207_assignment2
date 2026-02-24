@@ -1,4 +1,4 @@
-## UEES 207: Geophysical Processes - Assignment II
+## UEES 207: Geophysical Processes — Assignment II
 
 ### Problem Statement
 Develop a numerical code (e.g., in MATLAB or Python) to compute and visualize the radial component of the magnetic field, $B_r$, at the Earth's Core-Mantle Boundary (CMB). The visualization must utilize spherical harmonic expansion based on the provided Gauss coefficients.
@@ -27,6 +27,16 @@ The Gauss coefficients are organized into four columns:
 | 2 | $m$ | Spherical harmonic order |
 | 3 | $g$ | Gauss coefficient $g_l^m$ |
 | 4 | $h$ | Gauss coefficient $h_l^m$ |
+
+### Coastline Data Organization
+The geographical reference data is provided in a two-column format:
+
+| Column | Parameter | Description |
+| :--- | :--- | :--- |
+| 1 | Longitude | Longitudinal coordinates in degrees |
+| 2 | Latitude | Latitudinal coordinates in degrees |
+
+**Note for Python users:** The `coastlines.txt` file uses `NaN` (Not-a-Number) values to separate distinct landmass segments. Ensure your plotting logic accounts for these to prevent lines from connecting across oceans.
 
 ### Technical Requirements
 * **Normalization:** Use Schmidt-normalized associated Legendre functions.
