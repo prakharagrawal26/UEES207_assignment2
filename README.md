@@ -16,7 +16,7 @@ The following files are provided in this repository for the assignment:
 * **`data.mat` / `data.txt`**: Magnetic field data containing Gauss coefficients ($g, h$) up to degree 10.
 * **`coastlines.mat` / `coastlines.txt`**: Geographical reference data for continent outlines.
 * **`bwr.m`**: Custom colormap script required for MATLAB visualizations.
-* **Benchmark Figures**: Reference images (e.g., `l1m0.jpeg`) to verify your code output.
+* **Benchmark Figures**: Reference image ( `l1m0.jpeg`) to verify your code output.
 
 ### Magnetic Field Data Organization
 The Gauss coefficients are organized into four columns:
